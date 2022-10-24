@@ -16,9 +16,11 @@
   "permissions": [
     "webRequest",
     "storage",
-    "tabs"
+    "tabs",
+    "scripting"
   ],
-  "host_permissions": ["<all_urls>"],
+  "host_permissions": ["https://*/*",
+  "http://*/*"],
   "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
@@ -28,5 +30,12 @@
       "matches": ["<all_urls>"],
       "js": ["contentScript.js"]
     }
-  ]
+  ],
+  "web_accessible_resources": [{
+    "resources": ["*.html"],
+          "matches": [
+        "https://*/*",
+        "http://*/*"
+      ]
+  }]
 }

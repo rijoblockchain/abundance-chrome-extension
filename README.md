@@ -1,10 +1,12 @@
 # React Chrome Extension Boilerplate
 
+
 ## Getting Started
 
-1. `npm i` to install dependancies
-2. `npm start` to start running the fast development mode Webpack build process that bundle files into the `dist` folder
-3. `npm i --save-dev <package_name>` to install new packages
+1. cd <path to Abundance directory> - Navigate to Abundance directory (use git bash in windows to execute the commands)
+2. `npm i` to install dependancies
+3. `npm start` to start running the fast development mode Webpack build process that bundle files into the `dist` folder
+4. `npm i --save-dev <package_name>` to install new packages
 
 ## Loading The Chrome Extension
 
@@ -31,3 +33,4 @@
 - Folders get flattened, static references to images from HTML do not need to be relative (i.e. `icon.png` instead of `../static/icon.png`)
 - Importing local ts/tsx/css files should be relative, since Webpack will build a dependancy graph using these paths
 - Update the manifest file as per usual for chrome related permissions, references to files in here should also be flattened and not be relative
+

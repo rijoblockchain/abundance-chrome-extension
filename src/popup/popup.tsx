@@ -1,21 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Box from '@mui/material/Box';
+import Box from '@mui/material/Box'
 import './popup.css'
+import Main from './components/Main'
+import Login from './components/Login'
+
 
 const App: React.FC<{}> = () => {
   return (
     <div>
-      <img className="center" src="icon.png"/>
-      <br></br>
-      <p>Welcome To Your</p>
-      <p>A.B.U.N.D.A.N.C.E Movement</p>
-      <p>Dashboard</p>
-      <a href="https://www.facebook.com" target="_blank">
-        <img className="fb" src="fb.png"/>
-      </a>
+      <Main></Main>
+      <Login></Login>
+      
     </div>
-    
   )
 }
 

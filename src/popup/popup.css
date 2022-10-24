@@ -14,20 +14,7 @@ body {
   border-radius: 20px; 
 }
 
-.center {
-  width: 100px;
-  height:auto;
-  display: block;
-  margin: 0 auto;
-}
 
-.fb {
-  width: 250px;
-  height:auto;
-  display: block;
-  margin: auto;
-  margin-top: 27px;
-}
 
 p {
   color: white;

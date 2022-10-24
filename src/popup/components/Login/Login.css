@@ -1,0 +1,13 @@
+.fb {
+    width: 250px;
+    height:auto;
+    display: block;
+    margin: auto;
+    margin-top: 27px;
+  }
+  
+  .fbbutton {
+    background-color: black;  
+    margin: auto;
+    display: block;
+  }
