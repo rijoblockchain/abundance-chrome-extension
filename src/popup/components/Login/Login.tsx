@@ -7,7 +7,7 @@ const Login = () => {
   }
   
   return (
-    <button className="fbbutton">
+    <button>
       <img src="fb.png" alt="fb image" onClick={() => fbLogin()} className="fb" />
     </button>
   )

@@ -14,7 +14,27 @@ body {
   border-radius: 20px; 
 }
 
-
+button {
+  background-color: black !important;  
+  text-rendering: none;
+  color: black;
+  letter-spacing: none;
+  word-spacing: none;
+  line-height: none;
+  text-transform: none;
+  text-indent: none;
+  text-shadow: none;
+  text-align: none;
+  cursor: default;
+  padding: none;
+  border-width: none;
+  border-style: none;
+  border-color: black;
+  border-image: none;
+  display: block;
+  margin: auto;
+  
+}
 
 p {
   color: white;
